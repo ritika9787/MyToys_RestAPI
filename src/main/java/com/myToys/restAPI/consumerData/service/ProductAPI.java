@@ -7,8 +7,8 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.myToys.restAPI.consumerData.utils.ProductCsvToJson;
 import com.myToys.restAPI.consumerData.utils.Constants;
+import com.myToys.restAPI.consumerData.utils.impl.ProductCsvToJson;
 
 @Path("/product")
 public class ProductAPI {

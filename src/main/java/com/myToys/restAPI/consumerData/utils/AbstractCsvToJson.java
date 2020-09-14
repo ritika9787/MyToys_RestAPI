@@ -43,6 +43,6 @@ abstract public class AbstractCsvToJson {
 	    return inputList;
 	}
 	
-	abstract <T> List<T> mapCSVToObject(Stream<String> fileDataStream);
+	protected abstract <T> List<T> mapCSVToObject(Stream<String> fileDataStream);
 
 }

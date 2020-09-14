@@ -1,4 +1,4 @@
-package com.myToys.restAPI.consumerData.utils;
+package com.myToys.restAPI.consumerData.utils.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,12 +7,13 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import com.myToys.restAPI.consumerData.dto.Product;
+import com.myToys.restAPI.consumerData.utils.AbstractCsvToJson;
 
 public class ProductCsvToJson extends AbstractCsvToJson {
 
 	@SuppressWarnings("unchecked")
 	@Override
-	<T> List<T> mapCSVToObject(Stream<String> fileDataStream) {
+	public <T> List<T> mapCSVToObject(Stream<String> fileDataStream) {
 		Pattern pattern = Pattern.compile(",");
 	    List<Product> productList = new ArrayList<Product>();
 

@@ -20,6 +20,7 @@ import org.skyscreamer.jsonassert.JSONAssert;
 import org.skyscreamer.jsonassert.JSONCompareMode;
 
 import com.myToys.restAPI.consumerData.dto.Product;
+import com.myToys.restAPI.consumerData.utils.impl.ProductCsvToJson;
 
 /**
  * Unit test for CSV to JSON Converter.
