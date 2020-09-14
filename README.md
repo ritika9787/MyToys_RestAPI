@@ -19,14 +19,12 @@ Steps to execute the API:
 		4. Start tomcat and verify installation.
 5. Install M2E – useful Maven plugin for Eclipse / or similar for your IDE
 
-		1.	In Eclipse go to Help ⇒ Install new Software ⇒ Add and use the location: http://		 download.eclipse.org/technology/m2e/releases
-￼
-
+	1. In Eclipse go to Help ⇒ Install new Software ⇒ Add and use the location: http://download.eclipse.org/technology/m2e/releases	
 ￼
 	2. Restart Eclipse.
 
 6. Download the API from my GIT location
- ￼https://github.com/ritika9787/MyToys_RestAPI
+￼https://github.com/ritika9787/MyToys_RestAPI
 
 7. Update Maven Project : Right click the project and select Maven ⇒ Update Project.
 8. Run Maven Build : Right Click the project and select Run As : Maven Build and add to the goal : clean install
