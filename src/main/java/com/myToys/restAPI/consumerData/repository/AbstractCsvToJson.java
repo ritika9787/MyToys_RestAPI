@@ -1,4 +1,4 @@
-package com.myToys.restAPI.consumerData.utils;
+package com.myToys.restAPI.consumerData.repository;
 
 import java.io.BufferedReader;
 import java.io.File;

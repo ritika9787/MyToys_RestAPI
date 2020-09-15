@@ -1,4 +1,4 @@
-package com.myToys.restAPI.consumerData.utils.impl;
+package com.myToys.restAPI.consumerData.repository.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import com.myToys.restAPI.consumerData.dto.Product;
-import com.myToys.restAPI.consumerData.utils.AbstractCsvToJson;
+import com.myToys.restAPI.consumerData.repository.AbstractCsvToJson;
 
 public class ProductCsvToJson extends AbstractCsvToJson {
 

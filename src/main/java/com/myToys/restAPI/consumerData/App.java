@@ -2,7 +2,7 @@ package com.myToys.restAPI.consumerData;
 
 import java.io.IOException;
 
-import com.myToys.restAPI.consumerData.service.ProductAPI;
+import com.myToys.restAPI.consumerData.controller.ProductAPI;
 
 public class App{
 	

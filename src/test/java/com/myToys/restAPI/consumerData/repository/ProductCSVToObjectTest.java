@@ -1,7 +1,6 @@
-package com.myToys.restAPI.consumerData.utils;
+package com.myToys.restAPI.consumerData.repository;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -20,7 +19,7 @@ import org.skyscreamer.jsonassert.JSONAssert;
 import org.skyscreamer.jsonassert.JSONCompareMode;
 
 import com.myToys.restAPI.consumerData.dto.Product;
-import com.myToys.restAPI.consumerData.utils.impl.ProductCsvToJson;
+import com.myToys.restAPI.consumerData.repository.impl.ProductCsvToJson;
 
 /**
  * Unit test for CSV to JSON Converter.
